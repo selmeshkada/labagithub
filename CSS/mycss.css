@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(192, 205, 236);
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+header {
+    display: flex;
+    line-height: 5em;
+    position: relative;
+    width: 100%;
+    background: rgb(113, 116, 185);
+    padding-left: 50px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* a[href] {
+    color:aliceblue;
+} */
+
+.title nav a {
+    color:aliceblue;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a:hover {
+    color: rgb(48, 47, 56);
+    transition-duration: 1s;
+}
+
+[cite="Подзаголовок"],  #подзаголовок{
+    color: rgb(47, 58, 110);
+    font-size: larger;
+}
+
+/* div[cite] {
+    color: blue;
+} */
+
+#подзаголовок {
+    font-weight: bold;
+}
+
+img {
+    border-style: double;
+    border-width: 10px;
+    border-radius: 15px;
+    float: left;
+    width:  150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.container_images {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-auto-flow: row dense;
+    gap: 5px;
+    /* 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center; */
+}
+
+.links > a {
+    color: aliceblue;
+}
+
+h3 + ol {
+    color: rgb(255, 7, 7);
+}
+
+.math ~ ol {
+    color:blue;
+}
+
+p:active {
+    color: green;
+}
+
+img:hover{
+    color:forestgreen;
+}
+
+.abzac {
+    line-height: 30px;
+    text-align: right;
+}
+
+#mel {
+    text-align: center;
+    font-style: italic;
+    color:aliceblue;
+    background-color: rgb(113, 116, 185);
+}
+
+a {
+    text-decoration: none;
+}
+
